@@ -45,7 +45,7 @@ exports.c = function c () {
         console.log('欢迎你，' + user.username)
     }).catch(err => {
         // console.log(err)
-        console.log('登录失败：' + err.message)
+        console.log('登录失败, 请重试' + err.message)
     })
 }
 

@@ -29,4 +29,3 @@ $ node
 - `initStations.js`: 更新全国火车站信息(当前更新时间2017-01-22，如果有查不到的火车站时，执行`node initStations`更新全国火车站信息)
 - `service.js`: 12306网站请求的基本配置
 - `config.js`: 配置12306账号，密码
-- `cert目录`: https站点证书信息 借鉴项目[node_12306](https://github.com/lhlybly/node_12306)
